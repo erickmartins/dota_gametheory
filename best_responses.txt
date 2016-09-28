@@ -1,0 +1,225 @@
+
+ Leshrac : 
+	 Pugna 
+ Juggernaut : 
+	 Clinkz 
+ Mirana : 
+	 Lone Druid 
+ Disruptor : 
+	 Nature's Prophet 
+ Shadow Fiend : 
+	 Templar Assassin 
+ Silencer : 
+	 Lycan 
+ Techies : 
+	 Dragon Knight 
+ Luna : 
+	 Huskar 
+ Windranger : 
+	 Centaur Warrunner 
+ Terrorblade : 
+	 Timbersaw 
+ Sand King : 
+	 Zeus 
+ Meepo : 
+	 Ember Spirit 
+ Dark Seer : 
+	 Ember Spirit 
+ Enchantress : 
+	 Phantom Lancer 
+ Elder Titan : 
+	 Nature's Prophet 
+ Bounty Hunter : 
+	 Naga Siren 
+ Doom : 
+	 Chaos Knight 
+ Clinkz : 
+	 Broodmother 
+ Troll Warlord : 
+	 Lina 
+	 Ogre Magi 
+ Enigma : 
+	 Rubick 
+ Omniknight : 
+	 Invoker 
+ Gyrocopter : 
+	 Lifestealer 
+ Legion Commander : 
+	 Winter Wyvern 
+ Abaddon : 
+	 Invoker 
+ Viper : 
+	 Phantom Lancer 
+ Beastmaster : 
+	 Jakiro 
+ Lich : 
+	 Nature's Prophet 
+ Bristleback : 
+	 Necrophos 
+ Warlock : 
+	 Nature's Prophet 
+ Slark : 
+	 Anti-Mage 
+ Pudge : 
+	 Chaos Knight 
+ Sniper : 
+	 Spectre 
+ Outworld Devourer : 
+	 Pugna 
+ Venomancer : 
+	 Huskar 
+ Lycan : 
+	 Axe 
+ Slardar : 
+	 Tidehunter 
+ Ogre Magi : 
+	 Phantom Lancer 
+ Ancient Apparition : 
+	 Anti-Mage 
+ Ember Spirit : 
+	 Storm Spirit 
+ Lion : 
+	 Pugna 
+ Night Stalker : 
+	 Meepo 
+ Naga Siren : 
+	 Timbersaw 
+ Lone Druid : 
+	 Leshrac 
+ Nyx Assassin : 
+	 Lifestealer 
+ Broodmother : 
+	 Axe 
+ Tidehunter : 
+	 Bristleback 
+ Axe : 
+	 Timbersaw 
+ Earthshaker : 
+	 Alchemist 
+ Zeus : 
+	 Huskar 
+ Magnus : 
+	 Clinkz 
+ Dragon Knight : 
+	 Outworld Devourer 
+ Tinker : 
+	 Visage 
+ Brewmaster : 
+	 Anti-Mage 
+ Crystal Maiden : 
+	 Rubick 
+ Sven : 
+	 Medusa 
+ Lina : 
+	 Pugna 
+ Necrophos : 
+	 Invoker 
+ Phoenix : 
+	 Clinkz 
+ Pugna : 
+	 Huskar 
+ Lifestealer : 
+	 Templar Assassin 
+ Phantom Lancer : 
+	 Sand King 
+ Treant Protector : 
+	 Death Prophet 
+ Batrider : 
+	 Huskar 
+ Dazzle : 
+	 Ancient Apparition 
+ Puck : 
+	 Visage 
+ Ursa : 
+	 Phantom Lancer 
+ Oracle : 
+	 Chen 
+ Tiny : 
+	 Lifestealer 
+ Bane : 
+	 Chaos Knight 
+ Earth Spirit : 
+	 Huskar 
+ Weaver : 
+	 Faceless Void 
+ Phantom Assassin : 
+	 Timbersaw 
+ Keeper of the Light : 
+	 Nature's Prophet 
+ Shadow Demon : 
+	 Phantom Lancer 
+ Wraith King : 
+	 Phantom Lancer 
+ Faceless Void : 
+	 Enchantress 
+ Witch Doctor : 
+	 Riki 
+ Alchemist : 
+	 Viper 
+ Io : 
+	 Nature's Prophet 
+ Centaur Warrunner : 
+	 Witch Doctor 
+ Chaos Knight : 
+	 Sand King 
+ Undying : 
+	 Ember Spirit 
+ Timbersaw : 
+	 Pugna 
+ Templar Assassin : 
+	 Dark Seer 
+ Huskar : 
+	 Chaos Knight 
+ Nature's Prophet : 
+	 Storm Spirit 
+ Kunkka : 
+	 Lifestealer 
+ Morphling : 
+	 Io 
+	 Outworld Devourer 
+ Death Prophet : 
+	 Sniper 
+ Jakiro : 
+	 Rubick 
+ Invoker : 
+	 Templar Assassin 
+ Storm Spirit : 
+	 Anti-Mage 
+ Vengeful Spirit : 
+	 Phantom Lancer 
+ Razor : 
+	 Ember Spirit 
+ Spirit Breaker : 
+	 Meepo 
+ Rubick : 
+	 Clinkz 
+ Riki : 
+	 Bristleback 
+ Skywrath Mage : 
+	 Pugna 
+ Chen : 
+	 Phantom Lancer 
+ Anti-Mage : 
+	 Meepo 
+ Tusk : 
+	 Batrider 
+ Winter Wyvern : 
+	 Timbersaw 
+ Visage : 
+	 Phantom Lancer 
+ Queen of Pain : 
+	 Pugna 
+ Shadow Shaman : 
+	 Spectre 
+ Clockwerk : 
+	 Anti-Mage 
+ Bloodseeker : 
+	 Wraith King 
+ Arc Warden : 
+	 Naga Siren 
+ Spectre : 
+	 Undying 
+ Drow Ranger : 
+	 Phantom Lancer 
+ Medusa : 
+	 Anti-Mage 

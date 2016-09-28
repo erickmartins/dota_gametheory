@@ -1,0 +1,98 @@
+{
+ "metadata": {
+  "name": "Dotabuff Scrape Heroes"
+ },
+ "nbformat": 3,
+ "nbformat_minor": 0,
+ "worksheets": [
+  {
+   "cells": [
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": "from bs4 import BeautifulSoup\nimport requests\nfrom multiprocessing import Pool\nfrom multiprocessing.dummy import Pool as ThreadPool",
+     "language": "python",
+     "metadata": {},
+     "outputs": [],
+     "prompt_number": 1
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": "print 'Requesting hero list and matchup links...'\n\nmatchup_links = {}\nheroes_html = BeautifulSoup(requests.get('http://dotabuff.com/heroes').text)\nfor a in heroes_html.find('div', class_='hero-grid').find_all('a'):\n    matchup_links[a.text] = 'http://dotabuff.com%s/matchups' % a['href']\n\nprint 'Done.'",
+     "language": "python",
+     "metadata": {},
+     "outputs": [
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "Requesting hero list and matchup links...\nDone."
+      },
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "\n"
+      }
+     ],
+     "prompt_number": 2
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": "print 'Fetching matchup data for %s heroes...' % len(matchup_links)\n\npool = ThreadPool(8)\nresponses = pool.map(requests.get, matchup_links.values())\n\nall_html = [response.text for response in responses]\n\nprint 'Done.'",
+     "language": "python",
+     "metadata": {},
+     "outputs": [
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "Fetching matchup data for 105 heroes...\nDone."
+      },
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "\n"
+      }
+     ],
+     "prompt_number": 3
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": "def process_matchup_html(html):\n    soup = BeautifulSoup(html)\n    hero_name = soup.find('title').text.split(' - ')[2]\n    rows = soup.find('tbody').find_all('tr')\n    matchups = {}\n    for row in rows:\n        cells = row.find_all('td')\n        name = cells[1].text\n        advantage = cells[2].text.strip('%')\n        matchups[name] = advantage\n    return (hero_name, matchups)\n\nprint 'Processing %s matchups...' % len(matchup_links)\n\npool = ThreadPool(8)\nmatchups_list = pool.map(process_matchup_html, all_html)\n\nmatchups = {matchup[0]: matchup[1] for matchup in matchups_list}\n\nprint 'Done.'",
+     "language": "python",
+     "metadata": {},
+     "outputs": [
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "Processing 105 matchups...\nDone."
+      },
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "\n"
+      }
+     ],
+     "prompt_number": 4
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": "hero_one = 'Anti-Mage'\nhero_two = 'Clockwerk'\nprint '%s has a %s%% advantage over %s.' % (hero_one, matchups[hero_one][hero_two], hero_two)\nprint 'Check out %s for more details.' % matchup_links[hero_one]",
+     "language": "python",
+     "metadata": {},
+     "outputs": [
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "Anti-Mage has a 2.96% advantage over Clockwerk.\nCheck out http://dotabuff.com/heroes/anti-mage/matchups for more details.\n"
+      }
+     ],
+     "prompt_number": 5
+    }
+   ],
+   "metadata": {}
+  }
+ ]
+}

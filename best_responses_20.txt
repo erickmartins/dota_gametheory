@@ -1,0 +1,40 @@
+Ancient Apparition : 
+	 Anti-Mage 
+ Bloodseeker : 
+	 Morphling 
+ Sniper : 
+	 Slark 
+ Dazzle : 
+	 Ancient Apparition 
+ Arc Warden : 
+	 Lone Druid 
+ Skywrath Mage : 
+	 Bane 
+ Puck : 
+	 Dragon Knight 
+ Lone Druid : 
+	 Tiny 
+ Nyx Assassin : 
+	 Dragon Knight 
+ Dragon Knight : 
+	 Ancient Apparition 
+ Earthshaker : 
+	 Sniper 
+ Abaddon : 
+	 Invoker 
+ Shadow Shaman : 
+	 Lone Druid 
+ Tiny : 
+	 Dragon Knight 
+ Morphling : 
+	 Anti-Mage 
+ Anti-Mage : 
+	 Bloodseeker 
+ Weaver : 
+	 Bloodseeker 
+ Bane : 
+	 Tiny 
+ Slark : 
+	 Anti-Mage 
+ Invoker : 
+	 Nyx Assassin 
